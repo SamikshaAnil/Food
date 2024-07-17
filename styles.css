@@ -15,14 +15,14 @@ ul {
 nav ul {
     display: flex;
     justify-content: center;
-    background-color: #FF7271; /* Orange background color */
+    background-color: #FF7271;
     padding: 60px 0;
     position: fixed;
     top: 0;
-    left: 0; /* Align to the left side of the viewport */
+    left: 0; 
     width: 100%;
-    margin-left: 0; /* No left margin */
-    padding-left: 0; /* No left padding */
+    margin-left: 0; 
+    padding-left: 0;
 }
 
 nav ul li {
@@ -32,46 +32,42 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
-    color: #000; /* Black text color */
+    color: #000;
     font-weight: bold;
     transition: color 0.3s ease;
-    font-size: 60px; /* Adjust the font size as needed */
+    font-size: 60px; 
 
 }
 
 nav ul li a:hover {
-    color: #333; /* Darker color on hover */
+    color: #333;
 }
 
 
 
-/* Style the menu icon */
 .menu-icon {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    width: 120px; /* Adjust size as needed */
-    height: 60px; /* Adjust size as needed */
+    width: 120px; 
+    height: 60px; 
     cursor: pointer;
 }
 
 .line {
     width: 50%;
     height: 10px; 
-    /* Adjust thickness as needed */
-    background-color: #000; /* Black color */
-    border-radius: 50px; /* Add rounded corners */
+    background-color: #000;
+    border-radius: 50px; 
 }
-/* styles.css */
 
-/* styles.css */
 
 nav {
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
-    background-color: #FF7271; /* Orange background color */
+    background-color: #FF7271; 
     padding: 15px 0;
     z-index: 1000; 
 
@@ -87,7 +83,6 @@ nav {
 
 }
 
-/* styles.css */
 
 .left-column, .right-column {
     width: 50%;
@@ -129,8 +124,8 @@ nav {
 }
 
 button {
-    background-color: #FF7271; /* Orange background color */
-    color: #fff; /* White text color */
+    background-color: #FF7271; 
+    color: #fff; 
     border: none;
     padding: 10px 20px; 
     font-weight: bold;
@@ -196,9 +191,9 @@ button {
 
 .image:nth-child(3) {
     grid-column: 2;
-    grid-row: 1 / span 2; /* This line ensures it spans both rows */
+    grid-row: 1 / span 2; 
     height: 100%;
-    object-fit: center; /* This ensures the image scales while maintaining aspect ratio */
+    object-fit: center; 
 
 }
 
@@ -206,7 +201,7 @@ button {
     background-color: #ff6f61;
     color: #000000;
     padding: 90px;
-    width: 40%; /* Adjust the width as needed */
+    width: 40%; 
     height: auto;   
      text-align: left;
     border-radius: 8px;
@@ -249,7 +244,7 @@ button {
 
 .text-box p:after {
     content: '➔';
-    width: min-content; /* Adjust as needed */
+    width: min-content;
     margin-left: 5px;
     align-items: left;
     font-size: 30px;
