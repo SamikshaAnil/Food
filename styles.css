@@ -1,0 +1,258 @@
+body {
+    /* margin: 0;
+    padding: 0; */
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #cdffae, #f74eb6);
+}
+
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    background-color: #FF7271; /* Orange background color */
+    padding: 60px 0;
+    position: fixed;
+    top: 0;
+    left: 0; /* Align to the left side of the viewport */
+    width: 100%;
+    margin-left: 0; /* No left margin */
+    padding-left: 0; /* No left padding */
+}
+
+nav ul li {
+    margin-right:500px;
+}
+
+
+nav ul li a {
+    text-decoration: none;
+    color: #000; /* Black text color */
+    font-weight: bold;
+    transition: color 0.3s ease;
+    font-size: 60px; /* Adjust the font size as needed */
+
+}
+
+nav ul li a:hover {
+    color: #333; /* Darker color on hover */
+}
+
+
+
+/* Style the menu icon */
+.menu-icon {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 120px; /* Adjust size as needed */
+    height: 60px; /* Adjust size as needed */
+    cursor: pointer;
+}
+
+.line {
+    width: 50%;
+    height: 10px; 
+    /* Adjust thickness as needed */
+    background-color: #000; /* Black color */
+    border-radius: 50px; /* Add rounded corners */
+}
+/* styles.css */
+
+/* styles.css */
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #FF7271; /* Orange background color */
+    padding: 15px 0;
+    z-index: 1000; 
+
+}
+
+.container {
+    display: flex;
+    /* position: fixed; */
+    justify-content: space-between;
+    padding-top: 40px; 
+    height: 100vh;
+    padding-top: 40px; 
+
+}
+
+/* styles.css */
+
+.left-column, .right-column {
+    width: 50%;
+    padding: 0; 
+    margin: 0; 
+    height: 100vh;
+    background: none;
+
+}
+
+.left-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: left;
+    padding: 20px; 
+    max-width: 100%; 
+    font-size: 70px; 
+    font-family: sans-serif;
+
+
+    /* margin-top: -120px; */
+
+}
+
+.left-column h1 {
+    font-size: 100px; 
+    align-items: left;
+    justify-content: left; 
+    max-width: 100%; 
+
+}
+
+.right-column img {
+    max-width: 100%; 
+    display: block;
+    margin: 0 auto; 
+    height: 100vh;
+}
+
+button {
+    background-color: #FF7271; /* Orange background color */
+    color: #fff; /* White text color */
+    border: none;
+    padding: 10px 20px; 
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+    transition: background-color 0.3s ease; 
+    width: 30%;
+    height: 5vh;
+    font-size: 80px; 
+    font-family: sans-serif;
+
+
+}
+
+
+.gallery-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+    width: 100%;
+}
+
+.images-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 10px;
+    width: 40%;
+    height: auto;
+    padding: 0; 
+    margin: 0;
+    padding-top: 10%;
+    padding-left: 10%;
+    padding-bottom: 10%;
+    padding-right: 15%;
+
+}
+
+.image {
+    position: relative;
+}
+
+.image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.image:nth-child(1){
+    grid-column: 1;
+    padding-right: 5%;
+    padding-bottom: 3%;
+
+
+}
+.image:nth-child(2) {
+    grid-column: 1;
+    padding-right: 5%;
+
+}
+
+.image:nth-child(3) {
+    grid-column: 2;
+    grid-row: 1 / span 2; /* This line ensures it spans both rows */
+    height: 100%;
+    object-fit: center; /* This ensures the image scales while maintaining aspect ratio */
+
+}
+
+.text-box {
+    background-color: #ff6f61;
+    color: #000000;
+    padding: 90px;
+    width: 40%; /* Adjust the width as needed */
+    height: auto;   
+     text-align: left;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.text-box h3 {
+    margin: 0;
+    font-size: 30px;
+    align-items: left;
+    justify-content: left; 
+    font-weight: normal;
+
+
+}
+
+.text-box h1 {
+    margin: 10px 0;
+    font-size: 100px;
+    align-items: left;
+    justify-content: left; 
+
+} 
+
+.text-box p {
+    margin: 0;
+    font-size: 18px;
+    cursor: pointer;
+    display: flex;
+    font-size: 50px;
+
+    align-items: left;
+    justify-content: left; 
+
+
+}
+
+.text-box p:after {
+    content: '➔';
+    width: min-content; /* Adjust as needed */
+    margin-left: 5px;
+    align-items: left;
+    font-size: 30px;
+    justify-content: left; 
+
+}
